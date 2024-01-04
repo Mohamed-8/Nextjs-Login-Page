@@ -12,13 +12,13 @@ export default function Home() {
     <input type="text" name="uname" required/>
     <label className="psw">Password</label>
     <input type="password" name="psw" required/>
-    <div> 
     <button type="submit">Login</button>
-    </div>
   </div>
   <div class="container" >
     <button type="button" class="cancelbtn">Cancel</button>
     <span className="psw">Forgot <a href="#">password?</a></span>
+    <br/>
+    <span className="create">Don't have an Account yet?<a href="/registration">create one!</a></span>
   </div>
  </form>
  </div>

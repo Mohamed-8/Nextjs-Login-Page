@@ -58,6 +58,13 @@
  .login>h2{
     font-weight: 500;
 }
-
+ span a{
+    color: #1C21F5;
+ }
+ .create{
+    display: flex;
+    justify-content: center;
+    color: #a18f8f;
+ }
   
 
