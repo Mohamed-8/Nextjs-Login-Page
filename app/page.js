@@ -18,7 +18,7 @@ export default function Home() {
     <button type="button" class="cancelbtn">Cancel</button>
     <span className="psw">Forgot <a href="#">password?</a></span>
     <br/>
-    <span className="create">Don't have an Account yet?<a href="/registration">create one!</a></span>
+    <div className="create">Don't have an Account yet?<a href="/registration">create one!</a></div>
   </div>
  </form>
  </div>
