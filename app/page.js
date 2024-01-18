@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import "../public/page.css"
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
     <button type="button" class="cancelbtn">Cancel</button>
     <span className="psw">Forgot <a href="#">password?</a></span>
     <br/>
-    <div className="create">Don't have an Account yet?<a href="/registration">create one!</a></div>
+    <div className="create">Don't have an Account yet?<Link href="/registration">create one!</Link></div>
   </div>
  </form>
  </div>
